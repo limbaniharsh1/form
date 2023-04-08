@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: rgb(57, 56, 56);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  margin: 0 auto;
+  height: 300px;
+  width: 500px;
+  background-color: transparent;
+  border:1px solid cyan;
+  padding-top: 30px;
+  border-radius: 20px;
+}
+input{
+  width: 300px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid cyan;
+  padding: 15px 20px;
+  margin: 21px;
+  color: cyan;
+}
+button{
+  display: block;
+  margin: 0 auto;
+  background-color: cyan;
+  border: none;
+  margin-top: 12px;
+  width: 100px;
+  height: 30px;
+  border-radius: 21px;
+  cursor: pointer;
+}
+h1,h2{
+  color: cyan;
+}
